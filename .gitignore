@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.angular/
+Shell-Gems-Delivery/
+Shell-Gems-Delivery.zip
+*.log
+renderer/node_modules/
+renderer/dist/
+renderer/.angular/
+.run/
+.gemini/

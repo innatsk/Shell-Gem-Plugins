@@ -1,0 +1,22 @@
+{
+  "appId": "com.shell.gems",
+  "productName": "Shell-Gems",
+  "directories": {
+    "output": "dist/win-unpacked"
+  },
+  "files": [
+    "dist/main/**/*",
+    "renderer/dist/renderer/browser/**/*",
+    "package.json"
+  ],
+  "extraFiles": [
+    {
+      "from": "plugins",
+      "to": "plugins",
+      "filter": ["**/*"]
+    }
+  ],
+  "win": {
+    "target": ["dir"]
+  }
+}

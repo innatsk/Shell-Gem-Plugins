@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  padding: 24px;
+  gap: 20px;
+  background: #1a1a2e;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.loading-state, .error-state, .empty-state {
+  color: white;
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.error-state {
+  color: #f44336;
+}
