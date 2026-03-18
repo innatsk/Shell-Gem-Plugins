@@ -29,7 +29,7 @@ Set up the Electron + Angular structure before writing any feature code.
 - [x] Create `main/main.ts` — Electron entry point, loads Angular output
 - [x] Create `main/preload.ts` — `contextBridge` exposing `electronAPI.invoke`
 - [x] Verify Electron opens Angular app in a BrowserWindow
-- [x] Configure `electron-builder.json` for portable build (no installer)
+- [x] Configure `scripts/build.js` via `electron-packager` for portable build (no installer)
 - [x] Confirm `plugins/` folder copies into build output
 
 ### Phase 2 — Main Process IPC Layer

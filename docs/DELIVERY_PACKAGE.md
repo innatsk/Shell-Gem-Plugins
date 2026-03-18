@@ -10,7 +10,7 @@ any Windows 10/11 machine (with nothing pre-installed) and run the app with zero
 
 ### 1. The App Itself
 The Electron portable build output — a self-contained folder, no installer needed.
-Built via: `npm run build:portable` (configured in `electron-builder.json`)
+Built via: `npm run build:portable` (configured in `scripts/build.js` using `electron-packager`)
 Output folder: `dist/win-unpacked/`
 Rename to: `Shell-Gems/`
 

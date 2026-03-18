@@ -76,7 +76,7 @@ shell-plugin/
 │   └── PROGRESS.md
 │
 ├── package.json                         ← Root: Electron + build deps
-├── electron-builder.json                ← Portable build config
+├── scripts/build.js                     ← electron-packager build script
 │
 ├── main/                                ← Electron Main process (Node.js)
 │   ├── main.ts                          ← App entry point, BrowserWindow setup
